@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="00:00:000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/play_pause_button"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/textTimer"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/stopwatch_space"
+            android:text="@string/stopwatch_button_start" />
+
+        <Space
+            android:id="@+id/stopwatch_space"
+            android:layout_width="10dip"
+            android:layout_height="45dip"
+            android:layout_below="@id/textTimer"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/textTimer"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/stopwatch_space"
+            android:text="@string/stopwatch_button_reset" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <ImageView
+        android:id="@+id/logo_left"
+        android:layout_width="65dip"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/schriftzug" />
+
+    <!-- ratio must be correct, e.g. 640x360-->
+    <VideoView
+        android:id="@+id/galileo_video"
+        android:layout_width="710dip"
+        android:layout_height="400dip"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="710dip"
+        android:layout_height="400dip"
+        android:layout_centerInParent="true"
+        android:src="@drawable/galileo_movie_preview" />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:enabled="false"
+        android:text="@string/button_OK" />
+
+</RelativeLayout>

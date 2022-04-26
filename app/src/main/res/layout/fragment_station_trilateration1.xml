@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <ImageView
+        android:id="@+id/logo_left"
+        android:layout_width="65dip"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/schriftzug" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/logo_left">
+
+        <com.skronawi.dlr_school_lab.navigation_english.tasks.TrilaterationCanvasView
+            android:id="@+id/canvas"
+            android:layout_width="600dip"
+            android:layout_height="450dip"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/answer_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginTop="100dip"
+            android:layout_toRightOf="@id/canvas"
+            android:layout_marginLeft="10dip">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:text="@string/answers_alexandria" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answers_portolan" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answers_sextant" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answers_heightestimation" />
+
+        </LinearLayout>
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/button_Next" />
+
+    </RelativeLayout>
+</RelativeLayout>

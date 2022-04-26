@@ -1,0 +1,5 @@
+<resources>
+    <style name="AppTheme" parent="android:ThemeOverlay.Material.Dark">
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+    </style>
+</resources>

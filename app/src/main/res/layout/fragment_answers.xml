@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <ImageView
+        android:id="@+id/logo_left"
+        android:layout_width="65dip"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/schriftzug" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/logo_left">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/answers_yourAnswers" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/answers_yourDistances" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/answers_correctAnswers" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/answers_correctDistances" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/answers_alexandria" />
+
+                <TextView
+                    android:id="@+id/answer_alexandria_given"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+
+                <TextView
+                    android:id="@+id/answer_alexandria_given_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_alexandria_correct"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_alexandria_correct_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/answers_portolan" />
+
+                <TextView
+                    android:id="@+id/answer_portolan_given"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_portolan_given_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_portolan_correct"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_portolan_correct_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/answers_sextant" />
+
+                <TextView
+                    android:id="@+id/answer_sextant_given"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_sextant_given_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_sextant_correct"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_sextant_correct_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/answers_heightestimation" />
+
+                <TextView
+                    android:id="@+id/answer_heightestimate_given"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_heightestimate_given_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_heightestimate_correct"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/answer_heightestimate_correct_distance"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="-" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

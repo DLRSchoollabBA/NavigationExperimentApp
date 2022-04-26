@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skronawi.dlr_school_lab.navigation_english">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.skronawi.dlr_school_lab.navigation_english.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.skronawi.dlr_school_lab.navigation_english.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.skronawi.dlr_school_lab.navigation_english.pages.Preferences"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name="com.skronawi.dlr_school_lab.navigation_english.pages.Answers"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name="com.skronawi.dlr_school_lab.navigation_english.pages.Impressum"
+            android:screenOrientation="landscape"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service android:name="com.skronawi.dlr_school_lab.navigation_english.services.CoordinatesService"></service>
+        <service android:name="com.skronawi.dlr_school_lab.navigation_english.services.OrientationService"></service>
+        <service android:name="com.skronawi.dlr_school_lab.navigation_english.services.WithinDistanceService"></service>
+
+    </application>
+</manifest>

@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/target_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/destination" />
+
+        <TableLayout
+            android:id="@+id/coord_target_table"
+            android:layout_width="230dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/target_label"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lat_target_label"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/width" />
+
+                <TextView
+                    android:id="@+id/lat_target_input"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="140dip"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lon_target_label"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="@string/length" />
+
+                <TextView
+                    android:id="@+id/lon_target_input"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coord_target_table"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/pointer_red" />
+
+        <TextView
+            android:id="@+id/current_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pointer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+            android:text="@string/position" />
+
+        <TableLayout
+            android:id="@+id/coord_table"
+            android:layout_width="230dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_label"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lat_label"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/width" />
+
+                <TextView
+                    android:id="@+id/lat_input"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="140dip"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lon_label"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="@string/length" />
+
+                <TextView
+                    android:id="@+id/lon_input"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/dist_target_label"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance" />
+
+                <TextView
+                    android:id="@+id/dist_target_input"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

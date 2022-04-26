@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings" >
+        
+        <CheckBoxPreference
+                android:title="@string/real_coords"
+                android:key="setting_real_coords"
+                android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:title="@string/coord_accuracy"
+            android:key="setting_coord_accuracy"
+            android:defaultValue="15"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+    
+</PreferenceScreen>

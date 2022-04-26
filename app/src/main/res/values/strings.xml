@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Navigation ENG</string>
+
+    <string name="title_overview">Welcome</string>
+    <string name="title_answers">Answers</string>
+    <string name="title_imprint">Imprint</string>
+
+    <!-- not needed, only dummies-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="historic_order_1000BC">1000 BC</string>
+    <string name="historic_order_1100AD">1100 AD</string>
+    <string name="historic_order_1300AD">1300 AD</string>
+    <string name="historic_order_1400AD">1400 AD</string>
+    <string name="historic_order_1930AD">1930 AD</string>
+    <string name="historic_order_1993AD">1993 AD</string>
+    
+    <string name="width">Width:</string>
+    <string name="length">Length:</string>
+    <string name="distance">Distance:</string>
+    <string name="destination">Destination</string>
+    <string name="position">Your position</string>
+
+
+    <string name="navs_to_year_title">Start</string>
+    <string name="terrestrial_nav_title">Terrestrial navigation</string>
+
+    <string name="alexandria_title">Station 1: The Lighthouse of Alexandria</string>
+    <string name="alexandria_task_1">The Lighthouse of Alexandria is considered to be the world\'s first lighthouse.</string>
+    <string name="alexandria_task_2">The construction began in 299 BC; the finished lighthouse stood 120 meters tall.\n In the 14th century, it was destroyed by a series of earthquakes.</string>
+    <string name="alexandria_task_3">Approximately how long did it take to build this antique wonder of the world?</string>
+
+    <string name="coupled_nav_title">Dead reckoning</string>
+    <string name="degree_lon_lat_title">Station 3: Longitude and latitude</string>
+    <string name="portolan_title">Station 2: Order the map</string>
+
+    <string name="sextant_title">Station 3: Sextant</string>
+    <string name="sextant_task">From where you\'re standing, what is the angle between the building\'s roof and foundation?</string>
+
+    <string name="waypoint_nav_title">Waypoint navigation</string>
+    <string name="galileo_movie_title">Station 4: The European Galileo satellite navigation system 1</string>
+    <string name="height_estimation_title">Station 4: The European Galileo satellite navigation system 2</string>
+    <string name="trilateration_title">Station 4: The European Galileo satellite navigation system 3</string>
+    <string name="navs_to_year_recap_title">Target</string>
+    <string name="end_title">The end</string>
+
+    <string name="no_answer_given">No answer provided</string>
+    <string name="no_coords_available">No coordinates available</string>
+    <string name="mappings_incomplete">The mappings are not complete yet</string>
+
+    <string name="para">Parachute</string>
+    <string name="bird">Bird</string>
+    <string name="plane">Airplane</string>
+    <string name="satellite">Satellite</string>
+    <string name="satellite2">Satellite 2</string>
+    <string name="iss">ISS</string>
+
+    <string name="coordinate_invalid">Coordinate not valid</string>
+    <string name="coordinate_out_of_range">Coordinates must lie within the gitter</string>
+    <string name="navs_to_year_task">Sort the following developments in their historic order!</string>
+    <string name="terrestrial_nav_task">Follow the log entries and find the target!</string>
+    <string name="coupled_nav_task_1">Go for 73 seconds\nat walking speed\nnortheast!</string>
+    <string name="coupled_nav_task_2">Go for 10 seconds\nat walking speed\nnorthwest!</string>
+    <string name="portolan_task">Orient the map towards the north!</string>
+    <string name="waypoint_nav_task">Navigate to the following coordinates in sequence;\nmark off each waypoint on your way!</string>
+    <string name="estimate_height_task">Match the objects to the heights on which they can be located!</string>
+    <string name="navs_to_year_recap_task">Review the historic order you\'ve chosen using your
+      \nnewly acquired knowledge of navigation and its history!</string>
+    <string name="portolan_not_northed">The map is not oriented properly!</string>
+    
+    <string name="option_impressum_title">Imprint</string>
+    <string name="option_answers_title">Answers</string>
+    <string name="option_settings_title">Settings</string>
+
+    <string name="button_OK">OK</string>
+    <string name="button_Next">Next</string>
+    <string name="button_Continue">Continue</string>
+    <string name="button_GoBack">GoBack</string>
+
+    <string name="goal_text">You have arrived at your destination and didn\'t\nfreeze, drown or die of thirst! Congratulations!</string>
+    <string name="welcome_text_1">Welcome to the experiment!</string>
+    <string name="welcome_text_2">With GPS and Co. through the\nscientific town in Adlershof.</string>
+    <string name="welcome_text_3">In this experiment, you will learn different methods\nof navigation, from the antiquity to the modern
+        times.\n\nWe wish you a lot of fun!</string>
+    <string name="welcome_text_4">The DLR_School_Lab Team</string>
+    
+    <string name="button_resolve">Show solution</string>
+    <string name="button_northed">Orientation complete</string>
+    
+    <string name="stopwatch_button_reset">Reset</string>
+    <string name="stopwatch_button_pause">Pause</string>
+    <string name="stopwatch_button_start">Start</string>
+    <string name="stopwatch_button_goon">Continue</string>
+
+    <string name="waypoint_coord1">1st coordinate</string>
+    <string name="waypoint_coord2">2nd coordinate</string>
+    
+    <string name="nav_by_map_title">Navigation with a portolan chart</string>
+    <string name="map_nav_task">Find the target!</string>
+    
+    <string name="settings">Settings</string>
+    <string name="settings_general">General</string>
+    
+    <string name="real_coords">True coordinates</string>
+    <string name="coord_accuracy">Coordinate precision [m]</string>
+    <string-array name="logbook_times">
+        <item>11:30</item>
+        <item>11:31</item>
+        <item>11:32</item>
+        <item>11:33</item>
+        <item>11:35</item>
+        <item>11:37</item>
+    </string-array>
+    <string-array name="logbook_stations">
+        <item>Full sail ahead</item>
+        <item>Arrived at the cooling tower, turn to the right</item>
+        <item>Passed the copper beech</item>
+        <item>Crossed the street</item>
+        <item>Arrived at the smoke funnel, sharp turn to the left</item>
+        <item>Gathering point reached</item>
+    </string-array>
+
+    <string name="alexandria_radio2years">2 years</string>
+    <string name="alexandria_radio5years">5 years</string>
+    <string name="alexandria_radio20years">20 years</string>
+    <string name="alexandria_radio50years">50 years</string>
+
+    <string name="sextant_19degrees">19 degrees</string>
+    <string name="sextant_22degrees">22 degrees</string>
+    <string name="sextant_25degrees">25 degrees</string>
+    <string name="sextant_28degrees">28 degrees</string>
+
+    <string name="portolan_div">° diversion</string>
+    <string name="heightestimate_correct"> -correct</string>
+
+    <string name="distance_alexandria">100 m</string>
+    <string name="distance_portolan">55 m</string>
+    <string name="distance_sextant">120 m</string>
+    <string name="distance_height">169 m</string>
+
+    <string name="answers_yourAnswers">Your answers</string>
+    <string name="answers_yourDistances">Your distances</string>
+    <string name="answers_correctAnswers">Correct answers</string>
+    <string name="answers_correctDistances">Correct distances</string>
+    <string name="answers_alexandria">1. Alexandria</string>
+    <string name="answers_portolan">2. Portolan map</string>
+    <string name="answers_sextant">3. Sextant</string>
+    <string name="answers_heightestimation">4. Height estimation</string>
+</resources>

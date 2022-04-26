@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <ImageView
+        android:id="@+id/logo_left"
+        android:layout_width="65dip"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/schriftzug" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/logo_left"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Die App ist nur für den internen Gebrauch im DLR_School_Lab Berlin bestimmt und wird betreut durch:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR)\nDLR_School_Lab Berlin\nDr. Christoph Pawek\nRutherfordstr. 2\n12489 Berlin\nchristoph.pawek@dlr.de" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Inhaltlich verantwortlich:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Christoph Pawek\nLeitung DLR_School_Lab Berlin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Vertretungsberechtigter Vorstand:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gesetzlicher Vertreter des DLR ist der Vorstand, bestehend aus Prof. Dr. Pascale Ehrenfreund (Vorsitzende), Klaus Hamacher, Prof. Rolf Henke, Prof. Dr. Karsten Lemmer, Prof. Dr. rer. nat. Hansjörg Dittus und Dr. Gerd Gruppe." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Registergericht / Registernummer:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amtsgericht Bonn, VR 2780" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Umsatzsteuer-Identifikationsnummer:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DE 121965658" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dip"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Konzeptionierung und Umsetzung:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tobias Bohnhardt (tobias.bohnhardt@dlr.de), Till Siebert (till.siebert@dlr.de), Simon Kronawitter (skronawi@googlemail.com)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Bildrechte:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u25AA Start/Ziel, Geschichte:\n
+\u00A0\u00A0\u00A0\u00A0 - Leuchtturm: H. Zell (CC BY 3.0), via Wikimedia\n
+\u00A0\u00A0\u00A0\u00A0 - Kompass: Calsidyrose (CC BY 2.0), via Flickr\n
+\u00A0\u00A0\u00A0\u00A0 - Portolankarte: Public Domain, via Wikimedia\n
+\u00A0\u00A0\u00A0\u00A0 - Radar: Peripitus, via Wikimedia\n
+\u25AA Sextant: U.S. Geological Survey museum\n
+\u25AA Terrestrische Navigation: New Bedford Whaling Museum, via\n
+\u00A0\u00A0   Flickr\n
+\u25AA Leuchtturm von Alexandria: Emad Victor SHENOUDA, via\n
+\u00A0\u00A0   Wikimedia\n
+\u25AA Längen- und Breitengrade: Strebe (CC BY 3.0), via Wikimedia\n
+\u25AA Galileo, Höhenschätzung:\n
+\u00A0\u00A0\u00A0\u00A0 - Fallschirmspringer: Public Domain, via Wikimedia\n
+\u00A0\u00A0\u00A0\u00A0 - Gans: Mike Baird (CC BY 2.0), via Flickr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Die Rechte an den übrigen Bildern und Animationen liegen beim DLR oder den Partnerorganisationen NASA und ESA. Dieses Bildmaterial kann zur persönlichen Information und für pädagogische Zwecke genutzt werden. Eine Verwendung zu kommerziellen Zwecken ist ohne vorherige Absprache mit dem DLR nicht gestattet." />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
